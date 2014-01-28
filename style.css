@@ -1,0 +1,153 @@
+#container {
+	width: auto;
+	padding: 10px;
+	border-radius: 5px 5px;
+	box-shadow: 2px 2px 2px 2px;
+	background-color: #fff;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+body {
+	background-color: #FF8C00;
+	margin: auto;
+	width: 960px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+}
+h1 {
+	font-family: 'Ubuntu', sans-serrif;
+	font-weight: bolder;
+	font-size: 76px;
+	color: #FF8C00;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+	padding: 10px;
+	margin: auto;
+}
+#header h2 {
+	text-align: center;
+
+}
+h2 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 36px;
+}
+#header h3 {
+	color: #FF8C00;
+	text-shadow: 1px 1px #000;
+}
+
+}
+h3 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 26px;
+	font-style: italic;
+	text-decoration: underline;
+}
+p {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;	
+}
+a {
+	color: #FF8C00;
+	
+}
+a:link {
+	color: #FF8C00;
+}
+a:visited {
+	color: #000;
+}
+a:active {
+	color: #000;
+}
+a:hover {
+	color: #FF8C00;
+	border-bottom: 1px #FF8C00;
+}
+#navigation ul {
+	position: relative;
+	margin: 0;
+	padding: 10px;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+#navigation ul li {
+	display: inline;
+	text-decoration: none;
+
+}
+#navigation ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 36px;
+	font-weight: bolder;
+	background-color: #D3D3D3;
+	color: #000;
+	font-weight: normal;
+	box-shadow: 1px 1px #000;
+}
+#navigation ul li a:hover {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: #FF8C00; 
+}
+#header h3 {
+	font-style: italic;
+	text-align: center;
+}
+footer {
+	width: auto;
+	height: auto;
+	color: #000;
+}
+#footer-text {
+	text-align: left;
+
+}
+#copyright {
+	float: left;
+}
+#social {
+    float: right;
+}
+#social-content {
+	text-align: right;
+	clear: left;
+}
+
+#social li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    width: 712px;
+ 	}
+}
+@media only screen and (max-width: 767px) {
+  body {
+    width: 345px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
