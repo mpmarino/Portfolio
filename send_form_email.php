@@ -2,9 +2,9 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $from = 'From: TangledDemo'; 
-    $to = 'contact@tangledindesign.com'; 
-    $subject = 'Hello';
+    $from = ''; 
+    $to = 'mark.p.marino@gmail.com'; 
+    $subject = 'web inquiry';
     $human = $_POST['human'];
       
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
